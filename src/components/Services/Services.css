@@ -1,0 +1,8 @@
+
+.mapImg {
+    background-image: url('../../assets/images/services/online1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
