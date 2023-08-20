@@ -11,7 +11,7 @@ const AboutUs = () => {
       <div className="flex justify-center items-center mt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex justify-center items-center order-last md:order-first">
-            <div className="w-full md:w-[542px] mt-24 md:mt-0 grid justify-center ">
+            <div className="w-full  mt-24 md:mt-0  ">
               <div className="ml-[-130px] mb-7">
                 <SubTitle h3="About Us" />
               </div>

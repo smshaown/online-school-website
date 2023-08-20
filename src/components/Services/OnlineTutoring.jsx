@@ -11,8 +11,8 @@ const OnlineTutoring = () => {
   return (
     <div className="myContainer mt-20 mb-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
-        <div className="flex justify-center items-center"> 
-          <div className="relative">
+        <div className="flex sm:justify-center items-center md:justify-start"> 
+          <div className="relative ">
           <img
             src={img1}
             className="w-[380px] md:h-[508px] h-[750px]  ml-0 md:ml-40"

@@ -6,9 +6,9 @@ import yes from "../../assets/images/aboutUs/yes.png";
 const OurWork = () => {
   return (
     <div className="myContainer mt-96 md:mt-64">
-      <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="flex justify-center items-center md:mb-0 mb-20">
-          <div className="col-md-6 w-[415px] h-[413px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+        <div className="md:mb-0 mb-0">
+          <div className="h-[463px]">
             <img
               className=" object-cover rounded-2xl w-full h-full mt-20 md:mt:0"
               src={about1}
@@ -16,7 +16,7 @@ const OurWork = () => {
             />
           </div>
         </div>
-        <div className="col-md-6 md:mt-0 mt-20">
+        <div className="md:mt-20 mt-0">
           <div className="ml-[-131px]">
             <SubTitle h3="Our Work" />
           </div>
