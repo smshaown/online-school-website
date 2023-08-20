@@ -177,9 +177,9 @@ const SuccessStory = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center mt-12 mb-20">
         <div>
-          <p className="text-base text-[#9F9F9F] font-medium mt-20 mb-4">
+          <p className="text-base text-[#9F9F9F] font-medium">
             Showing 8 of 40
           </p>
         </div>

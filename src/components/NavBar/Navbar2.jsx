@@ -79,13 +79,13 @@ const Navbar2 = () => {
           <div className="hidden lg:block">
             <button
               to="/login"
-              className="py-[6px] px-8 rounded-full text-white bg-black mr-8"
+              className="py-[8px] px-9 rounded-full text-white bg-black mr-8"
             >
               login
             </button>
             <button
               to="/register"
-              className="border-solid border-2 px-4 rounded-full text-white"
+              className="border-solid border-2 px-6 py-1 rounded-full text-white"
             >
               Register
             </button>
@@ -144,11 +144,7 @@ const Navbar2 = () => {
           </div>
 
           <div className="px-2 pt-2 pb-3 space-y-4 flex flex-col justify-center items-center list-none">
-            <li>
-              <NavLink to="/" title="Home Link" className="default">
-                Services
-              </NavLink>
-            </li>
+           
 
             <li>
               <NavLink
@@ -156,7 +152,7 @@ const Navbar2 = () => {
                 title="About Us"
                 className={({ isActive }) => (isActive ? "active" : "default")}
               >
-                About Us
+                About
               </NavLink>
             </li>
 

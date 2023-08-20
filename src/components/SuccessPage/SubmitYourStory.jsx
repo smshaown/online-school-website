@@ -2,7 +2,7 @@ import React from 'react';
 
 const SubmitYourStory = () => {
     return (
-        <div className="myContainer  rounded-2xl shadow-lg px-2 mb-20" style={{boxShadow: "0px 3px 34px 0px rgba(0, 0, 0, 0.07)"}}>
+        <div className="myContainer  rounded-2xl shadow-lg px-2 mb-32" style={{boxShadow: "0px 3px 34px 0px rgba(0, 0, 0, 0.07)"}}>
 
         <h2 className='text-2xl md:text-4xl text-[#0E0E0E] font-semibold text-center py-10'>Submit your story</h2>
 

@@ -4,7 +4,8 @@ import OurWork from "./OurWork";
 import TeamMembers from "./TeamMembers";
 import AboutSuccessStory from "./AboutSuccessStory";
 import AboutBanner from "./AboutBanner";
-import SuccessStory from "./SuccessStory";
+// import SuccessStory from "./SuccessStory";
+import TeamMembers2 from "./TeamMembers2";
 
 const About = () => {
   return (
@@ -14,7 +15,8 @@ const About = () => {
       <AboutUs />
       <OurWork />
       {/* <SuccessStory /> */}
-      <TeamMembers />
+      {/* <TeamMembers /> */}
+      <TeamMembers2 />
     </div>
   );
 };

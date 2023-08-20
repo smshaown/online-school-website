@@ -84,7 +84,7 @@ const SuccessStory = () => {
       <div className="grid justify-center items-center mt-14">
         <Link
           to="/success"
-          className="px-10 py-3 bg-gray-800 text-white shadow-md hover:shadow-lg rounded-[30px] "
+          className="px-10 py-3 bg-gray-800 text-white shadow-md hover:shadow-lg rounded-[30px] mb-20"
         >
           Share your Story
         </Link>
