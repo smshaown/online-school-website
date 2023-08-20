@@ -2,9 +2,9 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="relative w-full bg-white px-3 pt-10 pb-8 mt-8  ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-3xl sm:rounded-lg sm:px-10">
+    <div className="relative myContainer">
       <div className="mx-auto px-5">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mb-20 mt-32">
           <h2 className="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl">
             FAQ
           </h2>
@@ -12,7 +12,7 @@ const FAQ = () => {
             Frequenty asked questions
           </p>
         </div>
-        <div className="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
+        <div className="divide-y divide-neutral-200">
           <div className="py-5">
             <details className="group">
               <summary className="flex cursor-pointer list-none items-center justify-between">

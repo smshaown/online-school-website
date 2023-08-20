@@ -8,8 +8,8 @@ import video2 from "../../assets/images/Scholarship/video2.png";
 const ApplyScholarship = () => {
   return (
     <>
-      <div className="myContainer  mb-20 ">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8 md:mt-24">
+      <div className="myContainer mb-40">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 md:mt-44">
           <div className="flex flex-col justify-center items-center">
             <div>
               <h2 className="text-3xl font-bold text-[#0E0E0E]">
@@ -41,7 +41,7 @@ const ApplyScholarship = () => {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center ">
+          <div className="flex flex-col justify-center items-center mt-8 md:mt-0  ">
             <div className="relative w-[380px] h-[310px] rounded-lg" >
               <img src={video} className="w-full h-full object-cover" alt="" />
               <div className="absolute bottom-0 left-[160px] top-[110px] w-16 h-16">

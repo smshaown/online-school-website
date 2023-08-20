@@ -7,7 +7,7 @@ import Button from "../Button/Button";
 const ContactSection = () => {
   return (
     <div className="myContainer ">
-      <div className="mx-auto max-w-[800px] bg-white rounded-2xl shadow-lg">
+      <div className="mx-auto  bg-white rounded-2xl shadow-lg">
         <div>
           <div
             className="px-2 md:px-12 rounded-t-2xl"
@@ -40,7 +40,7 @@ const ContactSection = () => {
               <div className="mb-4">
                 <label
                   htmlFor="name"
-                  className="block text-[#454545] font-semibold mt-5 mb-1"
+                  className="block text-[#454545] font-semibold mt-12 mb-1"
                 >
                   Name
                 </label>
@@ -114,7 +114,7 @@ const ContactSection = () => {
 
       {/* Contact Cards  */}
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-32 mb-32">
         <div class="relative border-2 border-gray-300 rounded-xl p-6 bg-gray-100 h-[200px] flex flex-col justify-center items-center">
           <div class=" text-white flex items-center absolute rounded-full py-1 px-1  bg-gray-500 left:0 md:left-[16.6rem] -top-[2.5rem]">
             <img src={img1} className="h-16 w-16" alt="" />

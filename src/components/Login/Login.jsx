@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <>
-      <div className="mx-auto max-w-[800px] bg-white">
+      <div className="mx-auto max-w-[800px] bg-white myContainer">
         <div>
           {/* <img src={login} className="w-20 h-14" alt="" /> */}
           <a
-            className="flex items-center gap-3 mt-10 uppercase font-bold ml-2"
+            className="flex items-center gap-3 mt-10 uppercase font-bold ml-2 px-6"
             href="/"
           >
             {" "}
@@ -24,7 +24,7 @@ const Login = () => {
             style={{ background: "rgba(166, 177, 183, 0.20)" }}
           >
             <div className="grid grid-cols-1 md:grid-cols-2 justify-between items-center mt-20 py-4">
-              <div className="order-last md:order-first">
+              <div className="order-last md:order-first px-4 md:px-0">
                 <h2 className="font-semibold text-3xl text-[#1A1A1A]">
                   Get In Touch
                 </h2>

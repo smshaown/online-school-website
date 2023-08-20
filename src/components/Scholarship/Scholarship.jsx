@@ -1,8 +1,8 @@
 import React from 'react';
 import TrainingSection from './TrainingSection';
 import ApplyScholarship from './ApplyScholarship';
-import FAQ from './FAQ';
 import SectionBanner from './SectionBanner';
+import FAQ from './FAQ';
 
 const Scholarship = () => {
     return (
